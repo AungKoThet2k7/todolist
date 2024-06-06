@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Media Query</title>
+        <style type="text/css">
+
+            *{
+                box-sizing: border-box;
+            }
+
+            .test{
+                width: 350px;
+                background-color: gray;
+                padding: 15px;
+                margin-bottom: 10px;
+                display: inline-block;
+            }
+
+            @media screen and (max-width: 1024px) {
+                .test{
+                    width: 49%;
+                    background-color: blue;
+                }
+            }
+
+            @media screen and (max-width: 270px) {
+                .test{
+                    width: 100%;
+                    background-color: hotpink;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+
+       <div class="test">
+        <h1>media Query Test</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, 
+                reiciendis quisquam perferendis sequi odio fugit provident quod, 
+                quo laudantium beatae id ducimus iure et iste delectus adipisci distinctio aspernatur impedit?
+            </p>
+       </div>
+
+       <div class="test">
+        <h1>media Query Test</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, 
+                reiciendis quisquam perferendis sequi odio fugit provident quod, 
+                quo laudantium beatae id ducimus iure et iste delectus adipisci distinctio aspernatur impedit?
+            </p>
+       </div>
+
+       <div class="test">
+        <h1>media Query Test</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, 
+                reiciendis quisquam perferendis sequi odio fugit provident quod, 
+                quo laudantium beatae id ducimus iure et iste delectus adipisci distinctio aspernatur impedit?
+            </p>
+       </div>
+        
+    </body>
+</html>

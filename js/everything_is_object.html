@@ -1,0 +1,27 @@
+<h1>Everything is an Object</h1>
+
+<input type="file" name="photo[]" id="file" multiple>
+
+<script>
+
+    let name = "Ko Kyaw";
+    let age = 26;
+    let arr = ["Kyaw Gyi",25,"IT","false"];
+
+    function test(){
+        console.log = ({name,age,arr});
+    }
+
+    let obj = {
+        //property
+        name : "Kyaw Kyaw",
+        age : 27,
+        job : "doctor",
+        status : "false",
+        //method
+        teach:function(){
+            console.log (`${this.name} can teach Web Design`)
+        }
+    };
+
+</script>

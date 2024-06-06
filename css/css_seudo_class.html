@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Seudo Class</title>
+
+        <style>
+
+            .container{
+                width: 500px;
+                border: 1px solid gray;
+                padding: 10px 20px;
+                transition: 1s;
+                color: black;
+            }
+
+            .container:hover{
+                background-color: purple;
+                color: white;
+            }
+
+            .container:active{
+                background-color: red;
+                color: white;
+            }
+
+            .input:focus{
+                background-color: gray;
+                color: white;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae voluptatem ad, neque exercitationem debitis autem officiis fugiat ducimus itaque mollitia, 
+                ab provident quia. Animi corporis rem quibusdam eos. Impedit, praesentium?
+            </p>
+        </div>
+
+        <br>
+
+        <input type="text" class="input">
+        
+    </body>
+
+</html>
